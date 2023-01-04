@@ -16,7 +16,7 @@ namespace RapidApiProject.WebUI.Controllers
                 RequestUri = new Uri("https://booking-com.p.rapidapi.com/v1/metadata/exchange-rates?currency=TRY&locale=en-gb"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "2b44d18838msh17657b55ff77ee8p1bae9ejsnb2112bc3937d" },
+        { "X-RapidAPI-Key", "your api key" },
         { "X-RapidAPI-Host", "booking-com.p.rapidapi.com" },
     },
             };
