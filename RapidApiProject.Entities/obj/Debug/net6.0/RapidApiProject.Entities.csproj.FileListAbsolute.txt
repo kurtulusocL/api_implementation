@@ -1,0 +1,12 @@
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\bin\Debug\net6.0\RapidApiProject.Entities.deps.json
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\bin\Debug\net6.0\RapidApiProject.Entities.dll
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\bin\Debug\net6.0\RapidApiProject.Entities.pdb
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.csproj.AssemblyReference.cache
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.AssemblyInfoInputs.cache
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.AssemblyInfo.cs
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.dll
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\refint\RapidApiProject.Entities.dll
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\RapidApiProject.Entities.pdb
+C:\Users\kurtulusocL\Desktop\RapidApiProject\RapidApiProject.Entities\obj\Debug\net6.0\ref\RapidApiProject.Entities.dll

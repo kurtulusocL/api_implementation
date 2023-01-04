@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BookingCurrencyDto.Exchange_Rates>
+@{
+    ViewData["Title"] = "Exchange Currency";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        @ViewData["Title"]
+        <hr />
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Currency</th>
+                    <th>Exchange Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.currency</td>
+                        <td>@item.exchange_rate_buy</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

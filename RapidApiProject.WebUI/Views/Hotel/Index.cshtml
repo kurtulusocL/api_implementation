@@ -1,0 +1,43 @@
+﻿@model IEnumerable<BookingHotelSearchDto.Result>
+@{
+    ViewData["Title"] = "Booking.com Hotel List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int count = 0;
+}
+
+<div class="container">
+    <div class="row">
+        <h3>@ViewData["Title"]</h3>
+        <hr />
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Image</th>
+                    <th>Hotel Name</th>
+                    <th>Hotel Point</th>
+                    <th>Hotel Review</th>
+                    <th>Price</th>
+                    <th>Lang</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>
+                            <a href="@item.max_photo_url" class="btn btn-outline-dark btn-sm">See Image</a>
+                        </td>
+                        <td>@item.hotel_name</td>
+                        <td>@item.review_score / 100</td>
+                        <td>@item.review_score_word</td>
+                        <td>@item.min_total_price $USD</td>
+                        <td>@item.default_language</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

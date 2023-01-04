@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MovieDto>
+@{
+    ViewData["Title"] = "Movie Db";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        @ViewData["Title"]
+        <hr />
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Movie Name</th>
+                    <th>Point</th>
+                    <th>Year</th>
+                    <th>Trailer</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                   <tr>
+                       <td>@item.rank</td>
+                       <td>@item.title</td>
+                       <td>@item.rating</td>
+                       <td>@item.year</td>
+                       <td>
+                           <a href="@item.trailer" target="_blank" class="btn btn-outline-dark btn-sm">Watch Trailer</a>
+                       </td>
+                   </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
